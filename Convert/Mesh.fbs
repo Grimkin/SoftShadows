@@ -1,0 +1,19 @@
+namespace Loader.Mesh;
+
+struct Vec3{
+	x:float;
+	y:float;
+	z:float;
+}
+
+table Mesh{
+	Positions:[Vec3];
+	Normals:[Vec3];
+	Indices:[uint];
+}
+
+table Meshes{
+	Objects:[Mesh];
+}
+
+root_type Meshes;

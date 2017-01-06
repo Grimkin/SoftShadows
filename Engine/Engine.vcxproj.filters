@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Backend">
+      <UniqueIdentifier>{81be5c1b-f2b5-4622-8299-03e8c8c48299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{8e2e5b9e-5d28-47e2-8668-fac2eb8c6b56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Shader">
+      <UniqueIdentifier>{99c81c28-151b-4e3f-ae55-4af3522dccc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{144ceacf-ba69-4821-b9a6-55316508e7e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{1d59e76b-a7c0-4233-9f85-5da87b347d24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TexutureLoader">
+      <UniqueIdentifier>{98cb2a86-9a93-454f-b796-3a87de40b145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Shader\GUI">
+      <UniqueIdentifier>{659ad1ac-755e-4813-8bc1-f5a9d02e5f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\GUI">
+      <UniqueIdentifier>{779c2afb-b305-429c-92e7-4ecc0c780b1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{c869196c-9302-4c9f-91d1-605a2298c1dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Voxel">
+      <UniqueIdentifier>{ab22b588-ffa7-4b59-ad75-9d6089243cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Shader\Voxelize">
+      <UniqueIdentifier>{90e5e1fa-36ac-4364-9b96-ca160455d6b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{f8376fe8-2839-4e69-a6bc-f94ab07b1300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RayCaster">
+      <UniqueIdentifier>{67fafd10-7d45-442d-a419-4c196aaa3eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\ImGUI">
+      <UniqueIdentifier>{2c60d5e4-6e24-4f79-915a-35487f0dbe2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{06658d50-6f87-4ca2-9b22-8d00f2bcd80e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPass.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderBackend.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderable.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.cpp">
+      <Filter>Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>TexutureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="WICTextureLoader.cpp">
+      <Filter>TexutureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Rendering\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Rendering\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Makros.cpp">
+      <Filter>Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Slider.cpp">
+      <Filter>Rendering\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLoader.cpp">
+      <Filter>Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugElements.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigManager.cpp">
+      <Filter>Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Voxelizer.cpp">
+      <Filter>Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiler.cpp">
+      <Filter>Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="emd.cpp">
+      <Filter>Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance.cpp">
+      <Filter>Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="Embree.cpp">
+      <Filter>RayCaster</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Rendering\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Rendering\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Rendering\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI_Impl.cpp">
+      <Filter>Rendering\ImGUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Makros.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPass.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DWrapper.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderBackend.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderBackend.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBufferTypes.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>TexutureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="WICTextureLoader.h">
+      <Filter>TexutureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Rendering\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Rendering\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Slider.h">
+      <Filter>Rendering\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLoader.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugElements.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigManager.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Voxelizer.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxelizeTest_Impl.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeBuild_Impl.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiler.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="emd.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="Embree.h">
+      <Filter>RayCaster</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Rendering\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Rendering\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Rendering\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_rect_pack.h">
+      <Filter>Rendering\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_textedit.h">
+      <Filter>Rendering\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_truetype.h">
+      <Filter>Rendering\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI_Impl.h">
+      <Filter>Rendering\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="Morton.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shader\vsTest.hlsl">
+      <Filter>Rendering\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\psTest.hlsl">
+      <Filter>Rendering\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\gsQuad.hlsl">
+      <Filter>Rendering\Shader\GUI</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\vsGUI.hlsl">
+      <Filter>Rendering\Shader\GUI</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\psGUIFont.hlsl">
+      <Filter>Rendering\Shader\GUI</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\psGUIElement.hlsl">
+      <Filter>Rendering\Shader\GUI</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\psColor.hlsl">
+      <Filter>Rendering\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\vsSimple.hlsl">
+      <Filter>Rendering\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\vsVoxel.hlsl">
+      <Filter>Rendering\Shader\Voxelize</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\psVoxel.hlsl">
+      <Filter>Rendering\Shader\Voxelize</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\psVoxelTest.hlsl">
+      <Filter>Rendering\Shader\Voxelize</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\vsFullScreenQuad.hlsl">
+      <Filter>Rendering\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\gsVoxel.hlsl">
+      <Filter>Rendering\Shader\Voxelize</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\csVoxel.hlsl">
+      <Filter>Rendering\Shader\Voxelize</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\csSparselize.hlsl">
+      <Filter>Rendering\Shader\Voxelize</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\csMipMap.hlsl">
+      <Filter>Rendering\Shader\Voxelize</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\csBuildTree.hlsl">
+      <Filter>Rendering\Shader\Voxelize</Filter>
+    </FxCompile>
+    <FxCompile Include="psPostSmooth.hlsl">
+      <Filter>Rendering\Shader\Voxelize</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\psShadow.hlsl">
+      <Filter>Rendering\Shader\Voxelize</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\gsNormal.hlsl">
+      <Filter>Rendering\Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\InputStructs.hlsli">
+      <Filter>Rendering\Shader</Filter>
+    </None>
+    <None Include="Shader\GUIStructs.hlsli">
+      <Filter>Rendering\Shader\GUI</Filter>
+    </None>
+    <None Include="Shader\VoxelTraverse.hlsli">
+      <Filter>Rendering\Shader\Voxelize</Filter>
+    </None>
+    <None Include="Assets\Config\main.config">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="Shader\VoxelDefines.hlsli">
+      <Filter>Rendering\Shader\Voxelize</Filter>
+    </None>
+    <None Include="Shader\Random.hlsli">
+      <Filter>Rendering\Shader\Voxelize</Filter>
+    </None>
+    <None Include="Shader\TreeTraverse.hlsli">
+      <Filter>Rendering\Shader\Voxelize</Filter>
+    </None>
+  </ItemGroup>
+</Project>
